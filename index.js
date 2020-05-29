@@ -17,7 +17,11 @@ client.on('message', message => {
         message.channel.send('BoniBOT!');
     }
 
-    if (!message.member.roles.has("567561659099381770") && message.content.includes("música", "musica", "Musica", "Música", "MUSICA", "MUSICA")){
+    if (command === "haru"){
+        message.channel.send('MORRA HARU! MORRA IMEDIATAMENTE SUA COELHA PUTA!');
+    }
+
+    if (command === "liberamusica");{
         message.channel.send('Não :)');
     }
 
