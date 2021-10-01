@@ -18,7 +18,7 @@ client.on('message', message => {
     }
 
     if (command === "haru"){
-        message.channel.send('MORRA HARU! MORRA IMEDIATAMENTE SUA COELHA PUTA!');
+        message.channel.send('MORRA HARU! MORRA IMEDIATAMENTE');
     }
 
     if (command === "liberamusica");{
